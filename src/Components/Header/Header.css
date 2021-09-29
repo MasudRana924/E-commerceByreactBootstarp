@@ -1,8 +1,9 @@
-.image{
-    height:100px;
-    width:200px;
-}
 .header{
-    background-color: black;
+    background-color: #131A22;
 }
+.anchor {
+    text-decoration: none;
+    color:blue;
+  
 
+}

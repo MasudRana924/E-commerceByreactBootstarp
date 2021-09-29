@@ -1,9 +1,12 @@
 
 import React from 'react';
-import { Button, Card, Col } from 'react-bootstrap';
+import {  Card, Col } from 'react-bootstrap';
+import { Link,} from 'react-router-dom';
+import './Shirt.css'
 
 const Shirt = (props) => {
-    const {img}=props.shirt
+    const {id,img}=props.shirt
+    const url=`/Shirt/${id}`
     return (
         <Col >
 
@@ -12,9 +15,9 @@ const Shirt = (props) => {
             <Card.Body>
                 <Card.Title></Card.Title>
                 <Card.Text>
-                   
+                  
                 </Card.Text>
-                <Button className="btn btn-secondary" onClick={()=>props.handleCart(props.shirt)}>Add To Cart</Button>
+               <Link className="anchor text-primary" to={url}>Show details</Link>
             </Card.Body>
         </Card>
 

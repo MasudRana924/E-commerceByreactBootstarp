@@ -1,9 +1,19 @@
-
+.anchor {
+    text-decoration: none;
+}
 .cart-icon{
     color:orange;
  
  
 }
+
 .spinner{
     margin-top: 200px;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+   .input{
+       width:50%;
+   }
+  }
