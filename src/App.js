@@ -15,6 +15,8 @@ import Details from './Components/Details/Details';
 
 import Offer from './Components/Offer/Offer';
 import Footer from './Components/Footer/Footer';
+import Login from './Login/Login';
+import Signup from './Components/Signup/Signup'
 
 
 
@@ -28,7 +30,12 @@ function App() {
       <Offer></Offer>
       <Router>
         <Header></Header>
+
         <Switch>
+         <Route exact path="/">
+           <Shirts></Shirts>
+
+         </Route>
           <Route path="/home">
             <Shirts></Shirts>
 
@@ -36,10 +43,17 @@ function App() {
           <Route path="/Shirt/:ShirtId">
             <Details></Details>
           </Route>
+          <Route path="/login">
+          <Login></Login>
+          </Route>
+          <Route path="/signup">
+          <Signup></Signup>
+          </Route>
+        
         </Switch>
         <Footer></Footer>
       </Router>
-      
+
 
     </div>
 

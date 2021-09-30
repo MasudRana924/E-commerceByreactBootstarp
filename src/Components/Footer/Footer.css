@@ -23,3 +23,25 @@
     color:green;
     font-size: 20px;
 }
+.visa-icon{
+color:white;
+background-color: rgba(0, 0, 255, 0.692);
+ font-size: 20px;
+ }
+ .master-icon{
+     font-size: 20px;
+     color:white;
+background-color: rgba(0, 0, 255, 0.692);
+ 
+ }
+ .paypal-icon{
+    color:white;
+    background-color: rgba(0, 0, 255, 0.692);
+     font-size: 20px;
+ }
+ .rocket{
+     height:20px; width:20px;
+ }
+ .nagad{
+    height:35px; width:20px;  
+ }

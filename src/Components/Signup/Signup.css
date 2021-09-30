@@ -1,0 +1,15 @@
+.para-two{
+    font-size:13px;
+ text-align: start;
+}
+.para{
+    font-size:11px;
+    text-align: start;
+}
+.shadow-class{
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+.para-three{
+    font-size: 12px;
+    text-align: start;
+}

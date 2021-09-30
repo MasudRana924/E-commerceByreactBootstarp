@@ -30,15 +30,15 @@ const Header = () => {
 
                 </div>
                 <div className="col-md-2 col-sm-12">
-              <button className="btn btn-warning me-1 mt-1">Login</button>
-              <button className="btn btn-warning mt-1">SignUp</button>
+                    <NavLink to="/login" className="">  <button className="btn btn-warning me-1 mt-1"> Login</button> </NavLink>
+                    <NavLink to="/signup" className="">  <button className="btn btn-warning me-1 mt-1">Signup</button> </NavLink>
+                   
                 </div>
             </div>
-        </div>
+          </div>
 
 
-
-    )
+            )
 };
 
-export default Header;
+            export default Header;
